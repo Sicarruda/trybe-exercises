@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: oblique;
+    line-height: initial;
+    text-decoration: double;
+}
+
+#a {
+    background-color: yellow;
+}
+
+#b {
+    background-color: red;
+}
+
+#c {
+    background-color: brown;
+}
