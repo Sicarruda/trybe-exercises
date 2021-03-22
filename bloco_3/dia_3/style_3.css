@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,
+p {
+  text-align: center;
+}
+li:hover {
+   background-color:darkgray;
+   
+}
+li:active{
+    color: darkgreen;
+}
+a:active{
+  color: green;  
+}
+ol{
+    list-style: none;
+}
+li{
+    line-height: 30px;
+}
