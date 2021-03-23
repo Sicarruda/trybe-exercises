@@ -27,7 +27,7 @@ aside li {
   height: 350px;
   margin-right: 20%;
   margin-left: 3%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .image_02 {
   float: right;
@@ -54,7 +54,6 @@ article {
 }
 
 .header a:hover,
-.video:hover,
 .bibliography a:hover {
   color: white;
   background-color: green;
@@ -85,4 +84,8 @@ a {
 }
 footer p {
   text-align: center;
+}
+iframe{
+  height: 500px;
+  width: 600px;
 }
