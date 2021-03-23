@@ -1,91 +1,32 @@
-body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: larger;
-  background-color: black;
-  color: azure;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
-h1,
-h2,
-h3 {
-  text-align: center;
-  color: green;
+h1{
+    text-align: center;
 }
+aside li{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-large;
+  
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.image_01, .image_02{
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin-right: 3%;
 
-aside li {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: x-large;
 }
-.header {
-  display: flex;
-  justify-content: center;
+table{
+    font-size: larger;
 }
-.image_01 {
-  float: right;
-  width: 350px;
-  height: 350px;
-  margin-right: 20%;
-  margin-left: 3%;
-  margin-top: 20%;
-}
-.image_02 {
-  float: right;
-  width: 350px;
-  height: 350px;
-  margin-left: 3%;
-}
-table {
-  font-size: larger;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-tr:nth-child(odd) {
-  color: green;
-}
-p {
-  line-height: 150%;
-  text-align: justify;
-}
-
-article {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.header a:hover,
-.bibliography a:hover {
-  color: white;
-  background-color: green;
-  border: gren solid;
-}
-.header a {
-  color: white;
-  border: green solid;
-  text-decoration: none;
-}
-a {
-  text-decoration: none;
-}
-span {
-  font-weight: 800;
-}
-.bibliography {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.bibliography li {
-  list-style: none;
-  font-size: x-large;
-  font-weight: 130%;
-}
-a {
-  color: green;
-}
-footer p {
-  text-align: center;
-}
-iframe{
-  height: 500px;
-  width: 600px;
+article{
+    margin-left: 5%;
+    margin-right: 5%;
 }
