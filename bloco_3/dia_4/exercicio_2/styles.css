@@ -1,0 +1,32 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h1{
+    text-align: center;
+}
+aside li{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-large;
+  
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.image_01, .image_02{
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin-right: 3%;
+
+}
+table{
+    font-size: larger;
+}
+article{
+    margin-left: 5%;
+    margin-right: 5%;
+}
