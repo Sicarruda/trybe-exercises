@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
     <div class="main-content">
       <div class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -39,7 +39,13 @@
       </div>
     </div>
     <script>
-        /*
+      function changeP() {
+        let tagP = document.getElementsByTagName("p")[0];
+        return (tagP.innerText =
+          "Lorem ipsum sem sagittis aliquet tellus, curabitur quam justo porttitor etiam, imperdiet at duis convallis.");
+      }
+      changeP();
+      /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
