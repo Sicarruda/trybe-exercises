@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-<div id="paiDoPai">
-  <div id="pai">
-    <div id="primeiroFilho"></div>
-    <div id="elementoOndeVoceEsta">
-      <div id="primeiroFilhoDoFilho"></div>
-      <div id="segundoEUltimoFilhoDoFilho"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="paiDoPai">
+      <div id="pai">
+        <div id="primeiroFilho">oi</div>
+        <div id="elementoOndeVoceEsta">
+          <div id="primeiroFilhoDoFilho"></div>
+          <div id="segundoEUltimoFilhoDoFilho"></div>
+        </div>
+        Atenção!
+        <div id="terceiroFilho"></div>
+        <div id="quartoEUltimoFilho"></div>
+      </div>
     </div>
-    Atenção!
-    <div id="terceiroFilho"></div>
-    <div id="quartoEUltimoFilho"></div>
-  </div>
-</div>
-<script>
-  
-</script>
-</body>
+    <script>
+      document.querySelector("#elementoOndeVoceEsta");
+      document.querySelector("#elementoOndeVoceEsta").parentNode.style.color =
+        "red";
+      document.querySelector("#primeiroFilhoDoFilho").innerHTML = "lalal";
+      document.querySelector("#pai").firstChild;
+      document.querySelector("#elementoOndeVoceEsta").previousSibling;
+      document.querySelector("#elementoOndeVoceEsta").nextElementSibling;
+      document.querySelector("#elementoOndeVoceEsta").nextSibling;
+      document.querySelector("#pai").childNodes[3];
+      let irmao = document.createElement("div");
+      let pai = document.querySelector("pai");
+      let elementoOndeVoceEsta = document.querySelector(
+        "#elementoOndeVoceEsta"
+      );
+      pai.appendChild(irmao);
+      let filho = document.createElement("p");
+      elementoOndeVoceEsta.appendChild(flho);
+      let primeiroFilhoDoFilho = document.querySelector(
+        "#primeiroFilhoDoFilho"
+      );
+      let filhoDoFilhoDoFilho = createElement("p");
+      primeiroFilhoDoFilho.appendChild(filhoDoFilhoDoFilho);
+      filhoDoFilhoDoFilho.parentNode.parentNode.nextSibling.nextSibling;
+      pai.removeChild(document.querySelector("#primeiroFilho"));
+      pai.removeChild(document.querySelector("#terceiroFilho"));
+      pai.removeChild(document.querySelector("#quartoEUltimoFilho"));
+      elementoOndeVoceEsta.removeChild(
+        document.querySelector("#segundoEUltimoFilhoDoFilho")
+      );
+    </script>
+    
+  </body>
 </html>
