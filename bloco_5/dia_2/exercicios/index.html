@@ -52,7 +52,7 @@
 
       .main-content .description {
         text-align: center;
-      } 
+      }
     </style>
   </head>
   <body>
@@ -67,13 +67,19 @@
       let divChild = document.createElement("div");
       divChild.className = "center-content";
       div.appendChild(divChild);
-      let p = document.createElement("p")
-      p.innerText ="lalala lululu"
-      divChild.appendChild(p)
-      let div2Child = document.createElement("div")
-      div2Child.className = "left-content"
-      div.appendChild(div2Child)
-      
+      let p = document.createElement("p");
+      p.innerText = "lalala lululu";
+      divChild.appendChild(p);
+      let div2Child = document.createElement("div");
+      div2Child.className = "left-content";
+      div.appendChild(div2Child);
+      let div3Child = document.createElement("div");
+      div3Child.className = "right-content";
+      div.appendChild(div3Child);
+      let img = document.createElement("img");
+      img.src = "https://picsum.photos/200";
+      img.className = "small-image";
+      div2Child.appendChild(img);
     </script>
   </body>
 </html>
