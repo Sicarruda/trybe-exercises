@@ -69,14 +69,6 @@ const books = [
 
 const expectedResult = [
   {
-    id: 6,
-    name: "O Chamado de Cthulhu",
-    genre: "Terror",
-    author: { name: "H. P. Lovecraft", birthYear: 1890 },
-    releaseYear: 1928,
-  },
-  {
-    id: 3,
     name: "Fundação",
     genre: "Ficção Científica",
     author: { name: "Isaac Asimov", birthYear: 1920 },
@@ -92,7 +84,16 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  
+  let newArray = books.filter((element) => {
+    if (2021 - element.releaseYear >= 60) {
+      return true;
+    }
+  });
+
+  newArray.sort(element => 2021 - element.releaseYear)
+
+  return newArray;
+
   // escreva seu código aqui
 }
 
