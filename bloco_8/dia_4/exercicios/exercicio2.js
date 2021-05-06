@@ -66,6 +66,10 @@ const books = [
 ];
 
 function allNames() {
+  books.filter(element => {
+    let newArray;
+    newArray.push(element.author.name)
+  })
   // escreva seu código aqui
 }
 
