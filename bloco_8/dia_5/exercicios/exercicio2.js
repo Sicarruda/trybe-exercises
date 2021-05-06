@@ -2,7 +2,8 @@
 
 // Dica: use parâmetro rest .
 
-const assert = require('assert');
+const assert = require("assert");
+const sum = (...num) => num.reduce((contador, count) => contador + count,0);
 
 // escreva sum abaixo
 
